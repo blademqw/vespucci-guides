@@ -32,7 +32,7 @@
   .u-section-2 .u-text-1 {
     font-size: 3.75rem;
     width: auto;
-    margin-top: 36px;
+    margin-top: 96px;
     margin-right: 0;
   }
 
@@ -44,26 +44,30 @@
 
   .u-section-2 .u-text-2 {
     width: auto;
-    margin-top: -247px;
+    margin-top: -237px;
     margin-right: 390px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 510px;
+    min-height: 518px;
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-top: 37px;
   }
 
   .u-section-2 .u-image-1 {
     width: 820px;
-    height: 108px;
-    margin-top: 160px;
+    height: 88px;
+    margin-top: 175px;
     margin-left: -50px;
     margin-right: -50px;
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: -262px;
+    margin-top: -243px;
     margin-right: 170px;
   }
 }
@@ -74,42 +78,42 @@
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 58px;
     font-size: 3rem;
+    margin-top: 30px;
   }
 
   .u-section-2 .u-image-1 {
     width: 640px;
-    height: 180px;
+    height: 125px;
     margin-top: 142px;
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: -302px;
+    margin-top: -247px;
     margin-right: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 467px;
+    min-height: 507px;
   }
 
   .u-section-2 .u-text-1 {
-    margin-top: 60px;
     font-size: 2.25rem;
+    margin-top: 20px;
   }
 
   .u-section-2 .u-image-1 {
-    width: 340px;
-    height: 101px;
+    height: 62px;
     margin-top: 194px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-text-2 {
-    margin-top: -275px;
+    margin-top: -249px;
   }
 }.u-section-3 .u-sheet-1 {
   min-height: 12px;
@@ -326,6 +330,7 @@
   background-repeat: no-repeat;
   background-image: url("../images/333.png");
   background-size: cover;
+  background-position: 50% 50%;
 }
 
 .u-section-8 .u-sheet-1 {
@@ -333,10 +338,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-8 {
-    background-position: 50% 50%;
-  }
-
   .u-section-8 .u-sheet-1 {
     min-height: 400px;
   }
@@ -366,16 +367,11 @@
 } .u-section-12 {
   background-repeat: no-repeat;
   background-image: url("../images/GTA5_2025-08-26_11-36-48_345.png");
+  background-position: 50% 50%;
 }
 
 .u-section-12 .u-sheet-1 {
   min-height: 400px;
-}
-
-@media (max-width: 1199px) {
-   .u-section-12 {
-    background-position: 50% 50%;
-  }
 }.u-section-13 .u-sheet-1 {
   min-height: 12px;
 }.u-section-14 .u-sheet-1 {
@@ -504,7 +500,7 @@
 
   .u-section-14 .u-image-1 {
     height: 277px;
-    margin-top: 144px;
+    margin-top: 104px;
   }
 
   .u-section-14 .u-layout-cell-2 {
